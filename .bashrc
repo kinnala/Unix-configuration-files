@@ -33,5 +33,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias irc='ssh gustaft1@vipunen.hut.fi'
+alias syn='synergyc -f --name Linukka winukka.tunk.org'
 
 set -o vi
