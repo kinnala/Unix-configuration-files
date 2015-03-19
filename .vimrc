@@ -24,9 +24,12 @@ set expandtab
 set cindent
 set nu
 set mouse=a
+set listchars=eol:$,nbsp:#
 
 colorscheme inkpot
 
 map <C-a> <C-w>
 
 set laststatus=2
+
+let g:airline#extensions#tabline#enabled=1
