@@ -12,6 +12,7 @@ Plugin 'ervandew/supertab'
 Plugin 'ervandew/screen'
 Plugin 'kinnala/VimLab'
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 
@@ -33,3 +34,4 @@ map <C-a> <C-w>
 set laststatus=2
 
 let g:airline#extensions#tabline#enabled=1
+let g:airline_powerline_fonts=1
